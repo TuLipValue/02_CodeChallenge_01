@@ -35,11 +35,62 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 // // Ausgabe
 // console.log("Die Summe der Zahlen ist: " + summe);
 
-/*********** Variante 2  ****************/
-// Kompaktere Lösung
+// /*********** Variante 2  ****************/
+// // Kompaktere Lösung
 
-let zahl1, zahl2, summe;
-zahl1 = parseInt(prompt("Zahl 1: "));
-zahl2 = parseInt(prompt("Zahl 2: "));
-summe = zahl1 + zahl2;
-console.log("Die Summe der Zahlen ist: " + summe);
+// let zahl1, zahl2, summe;
+// zahl1 = parseInt(prompt("Zahl 1: "));
+// zahl2 = parseInt(prompt("Zahl 2: "));
+// summe = zahl1 + zahl2;
+// console.log("Die Summe der Zahlen ist: " + summe);
+
+
+// /*********** Variante 3  ****************/
+
+console.log
+(   parseInt(prompt("Bitte geben Sie eine Zahl ein")) + 
+    parseInt(prompt("Bitte geben Sie eine Zahl ein")));
+
+
+
+// /*********** Meine Variante  ****************/
+// Deklaration und Wertzuweisung
+// let zahl1 = parseInt(prompt("Bitte geben Sie eine Zahl ein"));
+// let zahl2 = parseInt(prompt("Bitte geben Sie eine Zahl ein"));
+
+// // Berechnung
+// let summe = zahl1 + zahl2;
+
+// // Ausgabe
+// console.log("Die Summe der eingegebenen Zahlen ergibt " + summe);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
