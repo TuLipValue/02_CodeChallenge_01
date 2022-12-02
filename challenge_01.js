@@ -51,7 +51,12 @@ console.log
 (   parseInt(prompt("Bitte geben Sie eine Zahl ein")) + 
     parseInt(prompt("Bitte geben Sie eine Zahl ein")));
 
+// /*********** Variante 4  ****************/
+// Var. 3 mit parseFloat() anstatt parseInt() : Beachte "." anstatt "," zu benutzen!
 
+console.log
+(   parseFloat(prompt("Bitte geben Sie eine Zahl ein")) + 
+    parseFloat(prompt("Bitte geben Sie eine Zahl ein")));
 
 // /*********** Meine Variante  ****************/
 // Deklaration und Wertzuweisung
